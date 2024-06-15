@@ -1,62 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Whiskcode - Food, Blog & Tech</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food, Blog & Tech</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="logo">
-        <h1>Whiskcode</h1>
-        <p>Food. Blog. Tech.</p>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#">Food</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Tech</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section class="hero">
-      <img src="hero-image.jpg" alt="Whiskcode Hero Image">
-      <div class="hero-content">
-        <h1>Welcome to Whiskcode!</h1>
-        <p>Explore recipes, discover insightful reads, and dive into the world of tech.</p>
-      </div>
+    <header>
+        <div class="container">
+            <h1><a href="#">Food, Blog & Tech</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#food">Food</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#tech">Tech</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="food" class="food">
+        <div class="container">
+            <h2>Delicious Food</h2>
+            <p>Explore our collection of mouth-watering recipes from around the world.</p>
+            <a href="#" class="btn">Explore Recipes</a>
+        </div>
     </section>
-    <section class="blog-posts">
-      <h2>Latest Posts</h2>
-      <article class="blog-post">
-        <a href="#">
-          <img src="blog-post-1.jpg" alt="Blog Post 1 Image">
-        </a>
-        <h3><a href="#">A Delicious Recipe for [Recipe Name]</a></h3>
-        <p>Learn how to make [Short recipe description]...</p>
-      </article>
-      <article class="blog-post">
-        <a href="#">
-          <img src="blog-post-2.jpg" alt="Blog Post 2 Image">
-        </a>
-        <h3><a href="#">Exploring the Latest Tech Trends</a></h3>
-        <p>Stay updated on the exciting advancements in...</p>
-      </article>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-post">
+                <h3>10 Easy Tech Hacks for Better Productivity</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus maximus.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Top 5 Food Trends of 2024</h3>
+                <p>Nulla vehicula mi vitae accumsan feugiat. Quisque ut risus sit amet erat semper.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>The Future of AI in Healthcare</h3>
+                <p>Vivamus ullamcorper a nisi nec dignissim. Donec eu lacus sed lacus eleifend vestibulum.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
     </section>
-  </main>
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Whiskcode</p>
-      <ul class="social-media">
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Instagram</a></li>
-      </ul>
-    </div>
-  </footer>
+
+    <section id="tech" class="tech">
+        <div class="container">
+            <h2>Discover the Latest in Tech</h2>
+            <p>Stay updated with our tech articles covering AI, coding tips, gadgets, and more.</p>
+            <a href="#" class="btn">Explore Tech Articles</a>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: info@foodblogtech.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Food Blog Tech Street, City, Country</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
