@@ -1,6 +1,6 @@
-name: "PeixBlau"
+name: "Whiskcode"
 navbar:
-  title: "PeixBlau"
+  title: "Whiskcode"
   left:
     - text: "Home"
       href: index.html
