@@ -1,0 +1,11 @@
+name: "PeixBlau"
+navbar:
+  title: "PeixBlau"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Blog"
+      href: Journal.html
+    - text: "Contact"
+      href: Links.html
+output_dir: "docs"
