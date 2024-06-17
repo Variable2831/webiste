@@ -24,10 +24,9 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:whiskcode.support@proton.me"}
   - {title: Github, icon: github, url: "https://github.com/Variable2831"}
   - {title: Privacy, file: "Privacy.md"} 
-  - {title: Terms & Conditions, file: "Terms.md"} 
   - {title: Disclaimer, file: "Disclaimer.md"} 
   - {title: Cookies, file: "Cookies.md"} 
-
+  - {title: Terms & Conditions, file: "Terms.md"} 
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
