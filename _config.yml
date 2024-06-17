@@ -26,7 +26,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Github, icon: github, url: "https://github.com/Variable2831"}
   - {title: Contact, file: "Contact.md"} 
   - {title: Privacy Policy, file: "Privacy.md"} 
-  - {title: Terms and Conditions, file: "Terms.md"} 
+  - {title: Terms & Conditions, file: "Terms.md"} 
   - {title: Disclaimer, file: "Disclaimer.md"} 
   - {title: Cookies, file: "Cookies.md"} 
 
