@@ -114,7 +114,7 @@ layout: page
     </div>
 </div>
 
-<script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdVw_spAAAAANE27bmDhcF_seK-HVWFB5cWHZEa"></script>
 <script>
     grecaptcha.ready(function() {
         document.getElementById('contact-form').addEventListener('submit', function(event) {
