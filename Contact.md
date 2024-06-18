@@ -21,7 +21,7 @@ layout: page
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         box-sizing: border-box;
-        margin-right: 60px; /* Increased space between form and main content */
+        margin-right: 40px; /* Increased space between form and main content */
     }
     .contact-form h2 {
         margin-bottom: 20px;
