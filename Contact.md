@@ -5,7 +5,13 @@ layout: page
 ---
 
 <style>
-
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
     .container {
         display: flex;
         flex-direction: row;
@@ -14,10 +20,6 @@ layout: page
         padding: 20px;
         box-sizing: border-box;
     }
-    .main-content {
-        flex: 2;
-        margin-right: 20px;
-    }
     .contact-form-container {
         flex: 1;
         background-color: #1e1e1e;
@@ -25,6 +27,7 @@ layout: page
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         box-sizing: border-box;
+        margin-right: 20px;
     }
     .contact-form h2 {
         margin-bottom: 20px;
@@ -53,7 +56,7 @@ layout: page
     .contact-form button {
         width: 100%;
         padding: 15px;
-        background-color: #8A2BE2;
+        background-color: #8A2BE2; /* Purple */
         color: white;
         border: none;
         border-radius: 5px;
@@ -61,24 +64,23 @@ layout: page
         font-size: 16px;
     }
     .contact-form button:hover {
-        background-color: #7B1FA2;
+        background-color: #7B1FA2; /* Darker purple */
     }
     .contact-form input[type="text"]:focus,
     .contact-form input[type="email"]:focus,
     .contact-form textarea:focus {
-        border-color: #8A2BE2;
+        border-color: #8A2BE2; /* Purple hint */
         outline: none;
     }
     .hidden-field {
         display: none;
     }
+    .main-content {
+        flex: 2;
+    }
 </style>
 
 <div class="container">
-    <div class="main-content">
-        <h1>Main Content</h1>
-        <p>This is where the main content of the page would go. You can add any other information here that is relevant to your website or the specific page.</p>
-    </div>
     <div class="contact-form-container">
         <div class="contact-form">
             <h2>Contact Us</h2>
@@ -98,5 +100,9 @@ layout: page
                 <button type="submit">Submit</button>
             </form>
         </div>
+    </div>
+    <div class="main-content">
+        <h1>Main Content</h1>
+        <p>This is where the main content of the page would go. You can add any other information here that is relevant to your website or the specific page.</p>
     </div>
 </div>
