@@ -114,6 +114,11 @@ layout: page
     </div>
 </div>
 
+  <h1>Subscribe to Our Newsletter</h1>
+   <!-- Embedded Google Form -->
+   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQdGCk9xtfQkmDiV8il_z-iktyywi2t0SR2R3RV01h4uoQ3A/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
 <script src="https://www.google.com/recaptcha/api.js?render=6LdVw_spAAAAANE27bmDhcF_seK-HVWFB5cWHZEa"></script>
 <script>
     grecaptcha.ready(function() {
