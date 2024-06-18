@@ -5,7 +5,6 @@ layout: page
 ---
 
 <style>
-
     .container {
         display: flex;
         flex-direction: row;
@@ -13,7 +12,7 @@ layout: page
         margin: 0 auto;
         padding: 20px;
         box-sizing: border-box;
-        gap: 40px; /* Add space between form and content */
+        gap: 40px;
     }
     .contact-form-container {
         flex: 1;
@@ -48,14 +47,14 @@ layout: page
         box-sizing: border-box;
     }
     .contact-form textarea {
-        height: 150px; /* Fixed height */
-        resize: none; /* Prevent resizing */
-        overflow-y: auto; /* Scrollable */
+        height: 150px;
+        resize: none;
+        overflow-y: auto;
     }
     .contact-form button {
         width: 100%;
         padding: 15px;
-        background-color: #8A2BE2; /* Purple */
+        background-color: #8A2BE2;
         color: white;
         border: none;
         border-radius: 5px;
@@ -63,12 +62,12 @@ layout: page
         font-size: 16px;
     }
     .contact-form button:hover {
-        background-color: #7B1FA2; /* Darker purple */
+        background-color: #7B1FA2;
     }
     .contact-form input[type="text"]:focus,
     .contact-form input[type="email"]:focus,
     .contact-form textarea:focus {
-        border-color: #8A2BE2; /* Purple hint */
+        border-color: #8A2BE2;
         outline: none;
     }
     .hidden-field {
@@ -81,6 +80,7 @@ layout: page
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         box-sizing: border-box;
+        color: #ffffff;
     }
 </style>
 
@@ -111,13 +111,12 @@ layout: page
     <div class="main-content">
         <h1>Main Content</h1>
         <p>This is where the main content of the page would go. You can add any other information here that is relevant to your website or the specific page.</p>
+        
+        <h1>Subscribe to Our Newsletter</h1>
+        <!-- Embedded Google Form -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQdGCk9xtfQkmDiV8il_z-iktyywi2t0SR2R3RV01h4uoQ3A/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 </div>
-
-  <h1>Subscribe to Our Newsletter</h1>
-   <!-- Embedded Google Form -->
-   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQdGCk9xtfQkmDiV8il_z-iktyywi2t0SR2R3RV01h4uoQ3A/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
 
 <script src="https://www.google.com/recaptcha/api.js?render=6LdVw_spAAAAANE27bmDhcF_seK-HVWFB5cWHZEa"></script>
 <script>
