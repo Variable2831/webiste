@@ -5,13 +5,7 @@ layout: page
 ---
 
 <style>
-    body {
-        background-color: #121212;
-        color: #e0e0e0;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
+
     .container {
         display: flex;
         flex-direction: row;
@@ -27,7 +21,7 @@ layout: page
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         box-sizing: border-box;
-        margin-right: 20px;
+        margin-right: 40px; /* Increased space between form and main content */
     }
     .contact-form h2 {
         margin-bottom: 20px;
