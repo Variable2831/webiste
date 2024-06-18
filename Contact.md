@@ -64,13 +64,7 @@ layout: page
 
         <!-- Honeypot field -->
         <input type="text" name="_honeypot" class="hidden-field">
-        <input type="hidden" name="_captcha" value="false">
-
-        <!-- ReCAPTCHA field -->
-        <div class="g-recaptcha" data-sitekey="6LdVw_spAAAAANE27bmDhcF_seK-HVWFB5cWHZE"></div>
 
         <button type="submit">Submit</button>
     </form>
 </div>
-
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
