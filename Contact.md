@@ -88,7 +88,7 @@ layout: page
     <div class="contact-form-container">
         <div class="contact-form">
             <h2>Contact Us</h2>
-            <form action="https://formspree.io/f/mvoeejzy" method="POST">
+            <form id="contact-form" action="https://formspree.io/f/mvoeejzy" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -101,8 +101,8 @@ layout: page
                 <!-- Honeypot field -->
                 <input type="text" name="_honeypot" class="hidden-field">
 
-                <!-- reCAPTCHA field -->
-                <div class="g-recaptcha" data-sitekey="6LdVw_spAAAAANE27bmDhcF_seK-HVWFB5cWHZEa"></div>
+                <!-- reCAPTCHA token field -->
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
                 <button type="submit">Submit</button>
             </form>
@@ -114,4 +114,15 @@ layout: page
     </div>
 </div>
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script>
+<script>
+    grecaptcha.ready(function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            grecaptcha.execute('6LdVw_spAAAAANE27bmDhcF_seK-HVWFB5cWHZEa', {action: 'submit'}).then(function(token) {
+                document.getElementById('g-recaptcha-response').value = token;
+                document.getElementById('contact-form').submit();
+            });
+        });
+    });
+</script>
