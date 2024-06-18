@@ -17,6 +17,7 @@ layout: page
         background-color: #1e1e1e;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
     }
     .contact-form h2 {
         margin-bottom: 20px;
@@ -40,6 +41,7 @@ layout: page
         border-radius: 5px;
         background-color: #333;
         color: #e0e0e0;
+        box-sizing: border-box;
     }
     .contact-form button {
         width: 100%;
