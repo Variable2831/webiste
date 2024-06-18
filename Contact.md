@@ -5,7 +5,13 @@ layout: page
 ---
 
 <style>
-
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
     .container {
         display: flex;
         flex-direction: row;
@@ -13,6 +19,7 @@ layout: page
         margin: 0 auto;
         padding: 20px;
         box-sizing: border-box;
+        gap: 40px; /* Add space between form and content */
     }
     .contact-form-container {
         flex: 1;
@@ -21,7 +28,6 @@ layout: page
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         box-sizing: border-box;
-        margin-right: 40px; /* Increased space between form and main content */
     }
     .contact-form h2 {
         margin-bottom: 20px;
@@ -47,6 +53,11 @@ layout: page
         color: #e0e0e0;
         box-sizing: border-box;
     }
+    .contact-form textarea {
+        height: 150px; /* Fixed height */
+        resize: none; /* Prevent resizing */
+        overflow-y: auto; /* Scrollable */
+    }
     .contact-form button {
         width: 100%;
         padding: 15px;
@@ -70,7 +81,12 @@ layout: page
         display: none;
     }
     .main-content {
-        flex: 2;
+        flex: 1;
+        padding: 20px;
+        background-color: #1e1e1e;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
     }
 </style>
 
@@ -86,7 +102,7 @@ layout: page
                 <input type="email" id="email" name="email" required>
 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                <textarea id="message" name="message" required></textarea>
 
                 <!-- Honeypot field -->
                 <input type="text" name="_honeypot" class="hidden-field">
