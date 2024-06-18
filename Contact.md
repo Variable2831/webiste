@@ -5,11 +5,7 @@ layout: page
 ---
 
 <style>
-    body {
-        background-color: #121212;
-        color: #e0e0e0;
-        font-family: Arial, sans-serif;
-    }
+    
     .contact-form {
         max-width: 600px;
         margin: 0 auto;
