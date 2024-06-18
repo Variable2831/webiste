@@ -101,6 +101,9 @@ layout: page
                 <!-- Honeypot field -->
                 <input type="text" name="_honeypot" class="hidden-field">
 
+                <!-- reCAPTCHA field -->
+                <div class="g-recaptcha" data-sitekey="6LdVw_spAAAAANE27bmDhcF_seK-HVWFB5cWHZEa"></div>
+
                 <button type="submit">Submit</button>
             </form>
         </div>
@@ -110,3 +113,5 @@ layout: page
         <p>This is where the main content of the page would go. You can add any other information here that is relevant to your website or the specific page.</p>
     </div>
 </div>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
