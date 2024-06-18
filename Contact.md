@@ -102,7 +102,7 @@ layout: page
                 <input type="text" name="_honeypot" class="hidden-field">
 
                 <!-- reCAPTCHA field -->
-                <div class="g-recaptcha" data-sitekey="6LdVw_spAAAAANE27bmDhcF_seK-HVWFB5cWHZEa"></div>
+                <div class="g-recaptcha" data-sitekey="6LdVw_spAAAAAJ9zPH2ol48jqqzDhwT3ksc3sYNm"></div>
 
                 <button type="submit">Submit</button>
             </form>
