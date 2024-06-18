@@ -5,16 +5,23 @@ layout: page
 ---
 
 <style>
-    body {
-        background-color: #121212;
-        color: #e0e0e0;
-        font-family: Arial, sans-serif;
-    }
-    .contact-form {
-        max-width: 600px;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
+        box-sizing: border-box;
+    }
+    .main-content {
+        flex: 2;
+        margin-right: 20px;
+    }
+    .contact-form-container {
+        flex: 1;
         background-color: #1e1e1e;
+        padding: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         box-sizing: border-box;
@@ -46,7 +53,7 @@ layout: page
     .contact-form button {
         width: 100%;
         padding: 15px;
-        background-color: #8A2BE2; /* Purple */
+        background-color: #8A2BE2;
         color: white;
         border: none;
         border-radius: 5px;
@@ -54,12 +61,12 @@ layout: page
         font-size: 16px;
     }
     .contact-form button:hover {
-        background-color: #7B1FA2; /* Darker purple */
+        background-color: #7B1FA2;
     }
     .contact-form input[type="text"]:focus,
     .contact-form input[type="email"]:focus,
     .contact-form textarea:focus {
-        border-color: #8A2BE2; /* Purple hint */
+        border-color: #8A2BE2;
         outline: none;
     }
     .hidden-field {
@@ -67,21 +74,29 @@ layout: page
     }
 </style>
 
-<div class="contact-form">
-    <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/mvoeejzy" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+<div class="container">
+    <div class="main-content">
+        <h1>Main Content</h1>
+        <p>This is where the main content of the page would go. You can add any other information here that is relevant to your website or the specific page.</p>
+    </div>
+    <div class="contact-form-container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/mvoeejzy" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
-        <!-- Honeypot field -->
-        <input type="text" name="_honeypot" class="hidden-field">
+                <!-- Honeypot field -->
+                <input type="text" name="_honeypot" class="hidden-field">
 
-        <button type="submit">Submit</button>
-    </form>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
 </div>
