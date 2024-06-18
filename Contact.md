@@ -5,7 +5,11 @@ layout: page
 ---
 
 <style>
-    
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+        font-family: Arial, sans-serif;
+    }
     .contact-form {
         max-width: 600px;
         margin: 0 auto;
@@ -42,7 +46,7 @@ layout: page
     .contact-form button {
         width: 100%;
         padding: 15px;
-        background-color: #4CAF50;
+        background-color: #8A2BE2; /* Purple */
         color: white;
         border: none;
         border-radius: 5px;
@@ -50,7 +54,13 @@ layout: page
         font-size: 16px;
     }
     .contact-form button:hover {
-        background-color: #45a049;
+        background-color: #7B1FA2; /* Darker purple */
+    }
+    .contact-form input[type="text"]:focus,
+    .contact-form input[type="email"]:focus,
+    .contact-form textarea:focus {
+        border-color: #8A2BE2; /* Purple hint */
+        outline: none;
     }
     .hidden-field {
         display: none;
@@ -59,7 +69,7 @@ layout: page
 
 <div class="contact-form">
     <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/mvoeejzy" method="POST">
+    <form action="https://formspree.io/f/mnqkwvlv" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
