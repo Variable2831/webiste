@@ -61,7 +61,7 @@ layout: page
 
 <div class="contact-form">
     <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/mnqkwvlv" method="POST">
+    <form action="https://formspree.io/f/mvoeejzy" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
