@@ -1,12 +1,25 @@
-<head><link rel="icon" href="{{ site.favicon_png }}" type="image/png"></head>
+<head>
+  <link rel="icon" href="{{ site.favicon_png }}" type="image/png">
+</head>
 
 <nav>
-{%- for item in include.menu -%}
-  {%- assign node = site.pages | where: "name", item.file | first -%}
-  {%- assign url = item.url | default: node.url -%}
-  {%- assign title = item.title | default: node.title -%}
-  <a href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
-    {%- if item.icon -%}<svg aria-label="{{ title }}" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>{%- else -%}{{ title }}{%- endif -%}
-  </a>
-{%- endfor -%}
+  <div class="nav-logo">
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ site.logo }}" alt="{{ site.title }}">
+    </a>
+  </div>
+  {%- for item in site.navigation -%}
+    {%- assign node = site.pages | where: "name", item.file | first -%}
+    {%- assign url = item.url | default: node.url -%}
+    {%- assign title = item.title | default: node.title | default: item.file | split: '.' | first -%}
+    <a href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
+      {%- if item.icon -%}
+        <svg aria-label="{{ title }}" class="icon">
+          <use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use>
+        </svg>
+      {%- else -%}
+        {{ title }}
+      {%- endif -%}
+    </a>
+  {%- endfor -%}
 </nav>
