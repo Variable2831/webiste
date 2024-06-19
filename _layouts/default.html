@@ -39,9 +39,16 @@
       vertical-align: middle;
     }
 
+    .title {
+      font-size: 1.5rem;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+
     nav {
       display: flex;
       align-items: center;
+      margin-left: auto; /* Pushes nav to the right */
     }
 
     nav a {
@@ -62,15 +69,13 @@
     {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
   {% endif %}
 
-  <header>
+  <header style="display: flex; align-items: center; padding: 1rem; background-color: #f8f8f8; border-bottom: 1px solid #e7e7e7;">
     <div class="nav-logo">
       <a href="{{ '/' | relative_url }}">
         <img src="{{ site.logo }}" alt="{{ site.title }}">
-        <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
       </a>
     </div>
-
-
+    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
     <nav>
       {% for item in pages %}
         {%- assign node = site.pages | where: "name", item.file | first -%}
