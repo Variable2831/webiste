@@ -3,34 +3,10 @@
 <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
 <head>
   <link rel="icon" href="{{ site.favicon_png }}" type="image/png"></head>
-
-  <style>
-    .nav-logo img {
-      max-height: 10px; /* Adjust height as needed */
-      vertical-align: middle;
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: inherit;
-      margin-left: 1rem;
-    }
-
-    nav a.selected {
-      font-weight: bold;
-    }
-  </style>
   
-<div class="nav-logo">
   <a href="{{ '/' | relative_url }}">
     <img src="{{ site.logo }}" alt="{{ site.title }}">
   </a>
-</div>
 <meta charset="{{ site.encoding }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="{{ page.author | default: site.author | escape }}">
