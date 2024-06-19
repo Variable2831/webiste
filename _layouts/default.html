@@ -66,10 +66,10 @@
     <div class="nav-logo">
       <a href="{{ '/' | relative_url }}">
         <img src="{{ site.logo }}" alt="{{ site.title }}">
+        <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
       </a>
     </div>
 
-    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
 
     <nav>
       {% for item in pages %}
