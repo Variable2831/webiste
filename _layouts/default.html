@@ -32,13 +32,6 @@
   {% if site.comments.isso_domain and page.layout == "post" %}
   <script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>
   {% endif %}
-  
-  <style>
-    .nav-logo img {
-      max-height: 30px; /* Adjust height as needed */
-      vertical-align: middle;
-    }
-  </style>
 </head>
 <body>
   {% if site.navigation %}
