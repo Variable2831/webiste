@@ -4,7 +4,7 @@ permalink: "/contact/"
 layout: page
 ---
 
-![Contact](/assets/VideoAssets/Contact.mp4 "Contact")
+![Contact](/assets/GIFs/Contact.gif "Contact")
 
 # Contact Us
 
