@@ -1,7 +1,7 @@
 ---
 title: "Privacy"
 permalink: "/privacy/"
-layout: page 
+layout: page
 ---
 
 # Privacy Policy
@@ -11,8 +11,7 @@ This Privacy Policy describes Our policies and procedures on the collection, use
 
 We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the [Privacy Policy Generator](https://www.termsfeed.com/privacy-policy-generator/).
 
-<details>
-<summary><strong>Interpretation and Definitions</strong></summary>
+## Interpretation and Definitions
 
 ### Interpretation
 The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
@@ -33,10 +32,7 @@ For the purposes of this Privacy Policy:
 - **Website** refers to whiskcode, accessible from [whiskcode.top](https://whiskcode.top)
 - **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
-</details>
-
-<details>
-<summary><strong>Collecting and Using Your Personal Data</strong></summary>
+## Collecting and Using Your Personal Data
 
 ### Types of Data Collected
 
@@ -91,10 +87,7 @@ We use both Session and Persistent Cookies for the purposes set out below:
 
 For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.
 
-</details>
-
-<details>
-<summary><strong>Use of Your Personal Data</strong></summary>
+### Use of Your Personal Data
 The Company may use Personal Data for the following purposes:
 
 - **To provide and maintain our Service**, including to monitor the usage of our Service.
@@ -114,26 +107,20 @@ We may share Your personal information in the following situations:
 - **With business partners:** We may share Your information with Our business partners to offer You certain products, services, or promotions.
 - **With other users:** when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
 - **With Your consent:** We may disclose Your personal information for any other purpose with Your consent.
-</details>
 
-<details>
-<summary><strong>Retention of Your Personal Data</strong></summary>
+### Retention of Your Personal Data
 The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
 
 The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
-</details>
 
-<details>
-<summary><strong>Transfer of Your Personal Data</strong></summary>
+### Transfer of Your Personal Data
 Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those from Your jurisdiction.
 
 Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.
 
 The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
-</details>
 
-<details>
-<summary><strong>Delete Your Personal Data</strong></summary>
+### Delete Your Personal Data
 You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
 
 Our Service may give You the ability to delete certain information about You from within the Service.
@@ -141,10 +128,8 @@ Our Service may give You the ability to delete certain information about You fro
 You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.
 
 Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.
-</details>
 
-<details>
-<summary><strong>Disclosure of Your Personal Data</strong></summary>
+### Disclosure of Your Personal Data
 
 #### Business Transactions
 If the Company is involved in a merger, acquisition, or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
@@ -160,40 +145,23 @@ The Company may disclose Your Personal Data in the good faith belief that such a
 - Prevent or investigate possible wrongdoing in connection with the Service
 - Protect the personal safety of Users of the Service or the public
 - Protect against legal liability
-</details>
 
-<details>
-<summary><strong>Security of Your Personal Data</strong></summary>
+### Security of Your Personal Data
 The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
-</details>
 
-<details>
-<summary><strong>Children's Privacy</strong></summary>
+## Children's Privacy
 Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
 
 If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.
-</details>
 
-<details>
-<summary><strong>Links to Other Websites</strong></summary>
+## Links to Other Websites
 Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
 
 We have no control over and assume no responsibility for the content, privacy policies, or practices of any third party sites or services.
-</details>
 
-<details>
-<summary><strong>Changes to this Privacy Policy</strong></summary>
+## Changes to this Privacy Policy
 We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
 
 We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
 
-You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
-</details>
-
-<details>
-<summary><strong>Contact Us</strong></summary>
-If you have any questions about this Privacy Policy, You can contact us:
-
-- By email: whiskcode.support@proton.me
-- By visiting this page on our website: [https://whiskcode.top/contact/](https://whiskcode.top/contact/)
-</details>
+You are advised to review this Privacy
