@@ -1,7 +1,7 @@
 ---
 title: "Privacy"
 permalink: "/privacy/"
-layout: page
+layout: page 
 ---
 
 # Privacy Policy
