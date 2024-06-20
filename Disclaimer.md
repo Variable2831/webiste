@@ -4,6 +4,53 @@ permalink: "/disclaimer/"
 layout: page
 ---
 
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="max-w-md mx-auto">
+    <div class="bg-zinc-800 rounded-lg shadow-lg">
+        <button class="w-full flex items-center justify-between px-4 py-2 bg-zinc-900 rounded-lg focus:outline-none">
+            <span class="text-white">Accordion 1</span>
+            <svg class="w-6 h-6 text-white transform transition-transform" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </button>
+        <div class="p-4 hidden">
+            <p class="text-white">Accordion 1 Content</p>
+        </div>
+    </div>
+<div class="bg-zinc-800 rounded-lg shadow-lg mt-4">
+    <button class="w-full flex items-center justify-between px-4 py-2 bg-zinc-900 rounded-lg focus:outline-none">
+        <span class="text-white">Accordion 2</span>
+        <svg class="w-6 h-6 text-white transform transition-transform" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M19 9l-7 7-7-7"></path>
+        </svg>
+    </button>
+    <div class="p-4 hidden">
+        <p class="text-white">Accordion 2 Content</p>
+    </div>
+</div>
+</div>
+<script>
+    const accordions = document.querySelectorAll('.bg-zinc-800');
+
+    accordions.forEach(accordion => {
+        const button = accordion.querySelector('button');
+        const content = accordion.querySelector('div');
+
+        button.addEventListener('click', () => {
+            content.classList.toggle('hidden');
+            button.querySelector('svg').classList.toggle('rotate-180');
+        });
+    });
+</script>
+  </body>
+</html>
+
 <h1>Disclaimer</h1>
 <p>Last updated: June 17, 2024</p>
 <h2>Interpretation and Definitions</h2>
