@@ -6,10 +6,6 @@ layout: page
 
 # Contact Us
 
-## Contact Form
-
-Please fill out the form below to get in touch with us.
-
 <div style="max-width: 600px; margin: 0 auto; background-color: #1e1e1e; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
   <form id="contact-form" action="https://formspree.io/f/mvoeejzy" method="POST">
     <label for="name" style="color: #ffffff; font-weight: bold;">Name:</label>
