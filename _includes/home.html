@@ -1,5 +1,10 @@
 <head><link rel="icon" href="{{ site.favicon_png }}" type="image/png"></head>
 
+<video autoplay loop muted playsinline poster="original.jpg">
+  <source type="video/webm" src="original.webm">
+  <img src="/assets/GIFs/Home.gif">
+</video>
+
 {%- assign posts = paginator.posts | default: site.posts -%}
 {% for post in posts %}
   <article>
