@@ -4,6 +4,8 @@ permalink: "/contact/"
 layout: page
 ---
 
+![Contact](/assets/VideoAssets/Contact.mp4 "Contact")
+
 # Contact Us
 
 <div style="max-width: 600px; margin: 0 auto; background-color: #1e1e1e; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
