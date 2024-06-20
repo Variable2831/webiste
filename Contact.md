@@ -4,7 +4,10 @@ permalink: "/contact/"
 layout: page
 ---
 
-![Contact](/assets/GIFs/Contact.gif "Contact")
+<video autoplay loop muted playsinline poster="original.jpg">
+  <source type="video/webm" src="original.webm">
+  <img src="/assets/GIFs/Contact.gif">
+</video>
 
 <div style="max-width: 600px; margin: 0 auto; background-color: #1e1e1e; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
   <form id="contact-form" action="https://formspree.io/f/mvoeejzy" method="POST">
